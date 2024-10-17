@@ -1,0 +1,4 @@
+(executable
+ (public_name puck_line)
+ (name main)
+ (libraries puck_line))
