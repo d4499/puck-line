@@ -5,11 +5,11 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github d4499/puck-line))
 
-(authors "Author Name")
+(authors "Dalton Bennyhoff")
 
-(maintainers "Maintainer Name")
+(maintainers "Dalton Bennyhoff")
 
 (license LICENSE)
 
@@ -19,7 +19,7 @@
  (name puck_line)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml dune)
+ (depends ocaml dune lwt cohttp cohttp-lwt-unix cohttp-async lwt_ssl)
  (tags
   (topics "to describe" your project)))
 
