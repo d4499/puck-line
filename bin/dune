@@ -1,4 +1,6 @@
 (executable
  (public_name puck_line)
  (name main)
- (libraries lwt cohttp cohttp-lwt-unix))
+ (preprocess 
+   (pps serde_derive))
+ (libraries lwt cohttp cohttp-lwt-unix serde serde_json))

@@ -19,7 +19,7 @@
  (name puck_line)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml dune lwt cohttp cohttp-lwt-unix cohttp-async lwt_ssl)
+ (depends ocaml dune lwt cohttp cohttp-lwt-unix cohttp-async lwt_ssl serde serde_json)
  (tags
   (topics "to describe" your project)))
 

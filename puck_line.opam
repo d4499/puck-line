@@ -17,6 +17,8 @@ depends: [
   "cohttp-lwt-unix"
   "cohttp-async"
   "lwt_ssl"
+  "serde"
+  "serde_json"
   "odoc" {with-doc}
 ]
 build: [
